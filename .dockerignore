@@ -1,0 +1,11 @@
+.git
+.gitignore
+node_modules
+dist
+reference-cindy
+qa
+tests
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
