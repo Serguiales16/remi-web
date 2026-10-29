@@ -4,11 +4,11 @@ final result: passed
 
 ## Sources and comparison evidence
 
-- Visual source: https://cindy.app/, captured 2026-10-24. Source HTML, stylesheet and inspection captures are retained in `D:/REPOS/REMI/reference-cindy/`.
+- Visual source: https://cindy.app/, captured 2026-10-24. Source HTML, stylesheet and inspection captures are retained in `D:/REPOS/LUCY/reference-cindy/` (not published).
 - Browser-rendered source evidence: `qa/sourceDesktopSnapshot.png`, `qa/sourceMobileHero.png`.
-- Browser-rendered implementation: http://localhost:4173/; evidence in `qa/localDesktopHero.png`, `qa/localMobileHero.png`, `qa/localMobileFAQ.png`, `qa/localDownloadDesktop.png`.
+- Browser-rendered implementation: http://localhost:8080/ (Docker + Nginx); evidence in `qa/localDesktopHero.png`, `qa/localMobileHero.png`, `qa/localMobileFAQ.png`, `qa/localDownloadDesktop.png`. These captures predate the rename from Lucy to Remi and keep the previous wordmark.
 - Normalized side-by-side comparisons: `qa/desktop-comparison.png` and `qa/mobile-comparison.png`.
-- Compact final hero render: `qa/remi-preview.png`.
+- Compact final hero render: `qa/remi-preview.png`, recaptured after the rename.
 
 ## Viewports, state and normalization
 
@@ -59,7 +59,7 @@ No actionable P0/P1/P2 findings remain in the inspected states. Intentional diff
 - [x] Desktop and mobile visual comparisons after fixes.
 - [x] Core interactions and responsive boundary widths checked in browser.
 - [x] Production build and hosting-adapter tests passed.
-- [x] Preview remains running on port 4173.
+- [x] Preview served by Docker (Nginx) on port 8080.
 
 ## Follow-up polish
 
